@@ -1,18 +1,14 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Outside House","order":1,"parentId":0,"scrollX":832,"scrollY":640},
-{"id":2,"expanded":true,"name":"Inside House","order":2,"parentId":1,"scrollX":893.4545454545455,"scrollY":502.90909090909093},
+{"id":1,"expanded":true,"name":"Outside House","order":1,"parentId":0,"scrollX":1404,"scrollY":790.2857142857142},
+{"id":2,"expanded":true,"name":"Inside House","order":2,"parentId":1,"scrollX":819,"scrollY":461},
 {"id":3,"expanded":false,"name":"Room","order":3,"parentId":2,"scrollX":819,"scrollY":461},
-{"id":4,"expanded":false,"name":"Tguild","order":11,"parentId":14,"scrollX":982.8,"scrollY":553.1999999999999},
+{"id":4,"expanded":true,"name":"Village Entrance","order":5,"parentId":0,"scrollX":819,"scrollY":461},
 {"id":5,"expanded":false,"name":"Mom's Room","order":4,"parentId":2,"scrollX":832,"scrollY":640},
-{"id":6,"expanded":false,"name":"Inn","order":12,"parentId":14,"scrollX":819,"scrollY":461},
-{"id":7,"expanded":false,"name":"Weapons","order":13,"parentId":14,"scrollX":832,"scrollY":640},
-{"id":8,"expanded":false,"name":"Jail","order":14,"parentId":14,"scrollX":832,"scrollY":640},
-{"id":9,"expanded":true,"name":"Debugroom","order":5,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
-{"id":10,"expanded":true,"name":"Boulder Pass","order":6,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
-{"id":11,"expanded":false,"name":"Boulder Pass Dungeon","order":7,"parentId":10,"scrollX":1082.3999999999999,"scrollY":624},
-{"id":12,"expanded":false,"name":"Forest Pass","order":9,"parentId":0,"scrollX":1082.3999999999999,"scrollY":1356},
-{"id":13,"expanded":true,"name":"Boss Room","order":8,"parentId":10,"scrollX":1081.2,"scrollY":715.1999999999999},
-{"id":14,"expanded":true,"name":"Atown","order":10,"parentId":0,"scrollX":973.1999999999999,"scrollY":639.6},
-{"id":15,"expanded":false,"name":"Init","order":15,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999}
+{"id":6,"expanded":true,"name":"Inside Village","order":6,"parentId":4,"scrollX":832,"scrollY":640},
+{"id":7,"expanded":false,"name":"Inn","order":7,"parentId":6,"scrollX":0,"scrollY":0},
+{"id":8,"expanded":false,"name":"Weapons Shop","order":8,"parentId":6,"scrollX":0,"scrollY":0},
+{"id":9,"expanded":false,"name":"Debugroom","order":9,"parentId":0,"scrollX":1404,"scrollY":790.2857142857142},
+{"id":10,"expanded":true,"name":"Boulder Pass","order":10,"parentId":0,"scrollX":819,"scrollY":461},
+{"id":11,"expanded":false,"name":"Boulder Pass Dungeon","order":11,"parentId":10,"scrollX":2182.285714285714,"scrollY":1746.8571428571427}
 ]

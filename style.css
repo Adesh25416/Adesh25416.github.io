@@ -1,0 +1,106 @@
+#openMenu {
+  font-size: 1.5em;
+  display: none;
+}
+
+#closeMenu{
+  display: none;
+}
+
+.menuItem {
+  border: 2px solid #000000;
+  background-color: #330033;
+  color: #CC9999;
+  border-radius: 2px;
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.menuItem:hover {
+  background-color: #33CC33;
+}
+
+a {
+  color: #CC9999;
+  text-decoration: none;
+}
+
+body ,html {
+  font-family: DangerMode, Calibri, Arial;
+  background-image: linear-gradient(#0066ff, #00ccff);
+  height: 100%;
+}
+h1 {
+  font-family: Candara, Calibri, Arial;
+  text-align: center;
+}
+#content {
+  margin: auto;
+  width: 500px;
+  text-align: justify;
+}
+.segment{
+  padding: 10px;
+  border: 3px solid #000000;
+  /* border-width: 1px;
+  border-color: #0000000;
+  border-style: solid; */
+  border-style: solid;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+/*
+The following selector selcts images inside
+of the segment class
+*/
+.segment img {
+  max-width: 200px;
+  margin-bottom: 5px;
+}
+
+.segment .rightimg {
+float: right;
+margin-left: 10px;
+}
+
+.segment .leftimg {
+  float: left;
+  margin-right: 10px;
+}
+
+img {
+  max-width: 500px;
+}
+
+@media screen and (max-width: 500px) {
+  #openMenu {
+    display: inline;
+  }
+
+  #closeMenu{
+    display: block;
+  }
+}
+
+#menu{
+  border: 2px solid #000000;
+  display: block;
+  position: absolute;
+  top: 0px;
+  z-index: 99;
+  width: 95%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.segment img {
+  max-width: 200px;
+  margin-bottom: 5px;
+}
